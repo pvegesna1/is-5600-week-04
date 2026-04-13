@@ -86,7 +86,7 @@ And let's update our `app.js` to have the modified route handlers:
 // app.js
 // Add the api module
 const api = require('./api')
-
+ 
 // update the route handlers
 app.get('/', api.handleRoot)
 app.get('/products', api.listProducts)
